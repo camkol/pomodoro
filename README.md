@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-This was a teston knowledge of components and props.
+This was a code along teaching formulas, useState and useRef.
 
 ### Continued development
 
