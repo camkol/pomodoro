@@ -30,15 +30,15 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [View](https://developerprofile2.netlify.app/)
+- Live Site URL: [View](https://pomodoro3.netlify.app/)
 
 ## My process
 
-- This React application consists of a hierarchy of components starting with the App component as the root.
-- The App component renders a card-like structure containing an Avatar component and a div for data display.
-- The Avatar component displays an image. The Intro component provides introductory text about the developer.
-- The SkillList component maps through an array of skills, rendering a Skill component for each skill item, passing in skill-related props like name, level, and color.
-- Each Skill component displays a specific skill with its corresponding emoji based on the skill level.
+- This React component implements a countdown timer application with start, stop, and reset functionalities using React's state management and useRef hook for maintaining the timer interval reference.
+- The component manages states for title to display different messages based on the timer's status, timeLeft to track the remaining time in seconds, and isRunning to control the timer's active state.
+- When the "Start" button is clicked, it initiates the countdown by setting up an interval that decrements timeLeft every second until it reaches zero.
+- The UI renders buttons dynamically based on the timer's state, displaying "Start" when the timer is stopped and "Stop" when it's running, alongside a "Reset" button to restart the timer.
+- The countdown display is formatted using a padTime function to ensure consistent leading zeros for minutes and seconds.
 
 ### Built with
 
